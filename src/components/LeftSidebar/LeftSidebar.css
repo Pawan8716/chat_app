@@ -84,3 +84,32 @@
 .friends:hover span {
   color: white;
 }
+
+.ls_nav .menu {
+  position: relative;
+  padding: 10px 0px;
+}
+.menu .sub_menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 130px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  display: none;
+}
+.sub_menu hr {
+  border: none;
+  height: 1px;
+  background: #a4a4a4;
+  margin: 8px 0px;
+}
+.sub_menu p {
+  cursor: pointer;
+  font-size: 14px;
+}
+.menu:hover .sub_menu {
+  display: block;
+}
